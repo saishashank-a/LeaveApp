@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+ }
+ body {
+   background: rgb(194, 226, 252);
+   /* background-color: #fff; */
+ }
+ .container {
+   position: absolute;
+   /* padding: 10p; */
+   max-width: 800px;
+    height: 200px; 
+   margin: auto;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+    display: flex;  
+    align-items: center; 
+ }
+ .myCard {
+   height: 100%;
+   width: 100%;
+ }
+ .myRightCtn {
+   position: relative;
+ 
+   background-size: 300px 100px;
+   box-shadow: 5px 10px 15px rgb(39, 92, 178);
+   border-radius: 25px;
+   /* height: 100%; */
+   padding: 25px;
+   color: rgb(192, 192, 192);
+   font-size: 12px;
+   display: flex;
+ }
+ .myLeftCtn {
+   position: relative;
+   background: rgb(200, 228, 252);
+   border-radius: 25px;
+   /* height: 100%; */
+   padding: 25px;
+   padding-left: 50px;
+   box-shadow: 5px 10px 15px rgb(39, 92, 178);
+ }
+ .myLeftCtn header {
+   color: rgb(39, 92, 178);
+   font-size: 24px;
+   font-weight: 700;
+   margin-bottom: 20px;
+ }
+ 
+ .row {
+   height: 100%;
+ }
+ .img-responsive {
+   height: 200px;
+   /* width: 100%; */
+   object-fit: cover;
+ }
+ /* .myCard{
+     position: relative;
+     background: rgb(39, 92, 178); 
+     height: 100%;
+     border-radius: 25px;
+     -webkit-box-shadow:0px 10px 40px -10px rgb(0,0,0.7);
+     -moz-box-box-shadow:0px 10px 40px -10px rgb(0,0,0.7) ;
+     box-shadow: 0px 10px 40px -10px rgb(0,0,0.7);
+ } */
+ .btn {
+   background: rgb(39, 92, 178);
+   /* top: 10%; */
+   padding-top: 10px;
+   font-size: 10px;
+ }
+ .col-md-6 {
+   padding: 10px;
+ }
+ .input {
+   padding: 5px;
+ }
+ .myInput {
+   border-radius: 5px;
+   border: rgba(0, 0, 0, 0.977);
+   padding: 10px;
+ }
+ 
+ .content {
+   animation: typewriter 2s steps(40) 1s 1 normal both,
+     blinkTextCursor 500ms steps(50) infinite normal;
+ }
+ 
+ @keyframes typewriter {
+   from {
+     width: 0;
+   }
+ 
+   to {
+     width: 8.4em;
+   }
+ }
+ 
+ /* @keyframes blinkTextCursor {
+   from {
+     border-right-color:rgb(200, 228, 252) ;
+   } */
+ 
+ .content {
+     position: relative;
+      padding: 30px;
+      color: rgb(39, 92, 178);
+      top: 100%; 
+     width: 100%;
+     margin: 0 auto;
+     border-right: 2px solid lightblue;
+     font-size: 320%;
+     text-align: center;
+     white-space: nowrap;
+      overflow: hidden;  
+     transform: translateY(50%);
+ }
